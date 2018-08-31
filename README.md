@@ -17,12 +17,14 @@ Please check the [documentation](http://www.scalabel.ai/doc) for detailed usage 
 
 ## Installation (MacOS/Darwin)
 
-Install Homebrew; set `https://brew.sh/`
-Install Node.js: `brew install node`
-Install Node.js components: `npm install`
-Compile Node.js software: `npx webpack --config webpack.config.js --mode=production`
-Install Go Language (e.g. `brew install go`)
-Set environment variable GOPATH: `setenv GOPATH ~/go`
-Build software using Go: `go build -i -o $GOPATH/bin/scalabel ./server/go`
-Run server: `$GOPATH/bin/scalabel --config app/config/default_config.yml`
+1. Install Homebrew; see `https://brew.sh/`
+2. Install Node.js: `brew install node`
+3. Install Node.js components: `npm install`
+4. Compile Node.js software: `npx webpack --config webpack.config.js --mode=production`
+5. Install Go Language (e.g. `brew install go`)
+6. Set environment variable GOPATH: `setenv GOPATH ~/go`
+7. Build software using Go: `go build -i -o $GOPATH/bin/scalabel ./server/go`
+8. Run server: `$GOPATH/bin/scalabel --config app/config/default_config.yml`
+
+Access server at http://localhost:8686/
 
