@@ -14,3 +14,15 @@ Scalabel (pronounced "scalable") is a versatile and scalable tool that supports 
 # Usage and Demo
 
 Please check the [documentation](http://www.scalabel.ai/doc) for detailed usage instructions.
+
+## Installation (MacOS/Darwin)
+
+Install Homebrew; set `https://brew.sh/`
+Install Node.js: `brew install node`
+Install Node.js components: `npm install`
+Compile Node.js software: `npx webpack --config webpack.config.js --mode=production`
+Install Go Language (e.g. `brew install go`)
+Set environment variable GOPATH: `setenv GOPATH ~/go`
+Build software using Go: `go build -i -o $GOPATH/bin/scalabel ./server/go`
+Run server: `$GOPATH/bin/scalabel --config app/config/default_config.yml`
+
